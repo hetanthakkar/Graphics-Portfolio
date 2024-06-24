@@ -55,6 +55,7 @@ For example:
 ### OBJ and MTL Parsing
 
 The project includes a custom OBJ loader class that handles:
+
 - Vertex, texture coordinate, and face data parsing from .obj files
 - Material and texture information parsing from .mtl files
 - Efficient indexing of vertex and texture data for OpenGL rendering
@@ -92,3 +93,8 @@ Implements a simple camera system allowing forward and backward movement, enhanc
 ## Acknowledgments
 
 This project was completed as part of a computer graphics course, building on concepts of 3D rendering, file parsing, and interactive graphics.
+
+## Screenshot
+
+![Screenshot](./textured.gif)
+![Screenshot](./capsule.JPG)
