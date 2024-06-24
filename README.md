@@ -52,3 +52,7 @@ The project is structured around several key components:
 - Support for multiple models and textures
 - Dynamic lighting
 - Performance optimizations for large models
+
+## Screenshot
+
+![Screenshot](./NormalMap.gif)
