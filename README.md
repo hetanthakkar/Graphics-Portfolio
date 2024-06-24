@@ -52,7 +52,3 @@ The project is structured around several key components:
 - Support for multiple models and textures
 - Dynamic lighting
 - Performance optimizations for large models
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
