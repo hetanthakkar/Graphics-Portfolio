@@ -28,4 +28,4 @@ This project is part of an assignment to learn and practice 3D modeling skills u
 
 ## Screenshot
 
-![Screenshot](./sword.png)
+![Screenshot](./sword.jpg)
