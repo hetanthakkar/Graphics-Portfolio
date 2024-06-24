@@ -15,3 +15,7 @@ The .obj model renderer can load and display 3D models in the wavefront .obj for
   - Press 'q' key to exit the application
   - Press '1' key to render a .obj model read in from the command-line
   - Press '2' to '9' keys to render other objects read in from the command-line
+
+## Screenshot
+
+![Screenshot](./bunny.png)
