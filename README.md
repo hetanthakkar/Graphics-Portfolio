@@ -1,31 +1,34 @@
-# 3D Modeling Project
+# Phong Illumination and Point Light(s) Assignment
 
 ## Description
+This assignment focuses on implementing the Phong illumination model and working with point lights in a 3D graphics application. The project builds upon previous work with .obj file loading and adds sophisticated lighting effects.
 
-This project is part of an assignment to learn and practice 3D modeling skills using Blender3D or another 3D modeling tool. The goal was to create a unique 3D object with no more than 1,000 triangles and export it in the .obj format.
+## Objectives
+- Display .obj objects with perspective projection
+- Visualize object normals for debugging
+- Implement the Phong illumination model
+- Create and animate point lights
+- Add interactive graphics features
 
-## Project Structure
+## Tasks
+### Task 1: .obj Object Display
+- Load and display a .obj file specified through command-line arguments
+- Example usage: `./prog ../../common/bunny_centered.obj`
 
-- The 3D model file (.obj) is located in the `./../../common/objects` directory of the monorepo.
+### Task 2: Displaying Normals
+- Update the fragment shader to output colors based on object normals
+- Store and pass normals from the vertex shader to the fragment shader
 
-## Tools Used
+### Task 3: Phong Illumination - Point Lights
+- Implement the Phong illumination model with three components:
+  - Ambient
+  - Diffuse
+  - Specular
+- Create at least one animated point light in the scene
+- Implement light attenuation over distance
 
-- Blender3D (or specify the 3D modeling tool you used)
-
-## Object Details
-
-- Name: Hetan Thakkar
-- Description: Sword made in Blender
-
-## Process
-
-1. Learned basic 3D modeling techniques using tutorials and resources provided.
-2. Brainstormed and sketched ideas for a unique 3D object.
-3. Created the 3D model using Blender3D (or your chosen tool).
-4. Ensured the model stayed within the 1,000 triangle limit.
-5. Exported the model in .obj format with triangulated faces.
-6. Committed the .obj file to the specified directory in the monorepo.
-
-## Screenshot
-
-![Screenshot](./sword.jpg)
+### Task 4: Interactive Graphics
+- Implement the following keyboard controls:
+  - Tab key: Toggle between filled and wireframe mode
+  - Esc key: Exit the application
+  - W/S keys: Move camera forward/backward
