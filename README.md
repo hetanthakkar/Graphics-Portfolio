@@ -1,21 +1,22 @@
-# .obj Model Renderer
-
-This project is a .obj model renderer implemented in C++ using SDL2 and OpenGL.
+# 3D Modeling Project
 
 ## Description
+This project is part of an assignment to learn and practice 3D modeling skills using Blender3D or another 3D modeling tool. The goal was to create a unique 3D object with no more than 1,000 triangles and export it in the .obj format.
 
-The .obj model renderer can load and display 3D models in the wavefront .obj format. It includes support for rendering models in wireframe mode and allows for interactive control of the rendering.
+## Project Structure
+- The 3D model file (.obj) is located in the `./../../common/objects` directory of the monorepo.
 
-## Features
+## Tools Used
+- Blender3D (or specify the 3D modeling tool you used)
 
-- Load and display .obj models
-- Render models in wireframe mode
-- Interactive control:
-  - Press 'w' key to toggle wireframe mode
-  - Press 'q' key to exit the application
-  - Press '1' key to render a .obj model read in from the command-line
-  - Press '2' to '9' keys to render other objects read in from the command-line
+## Object Details
+- Name: Hetan Thakkar
+- Description: Sword made in Blender
 
-## Screenshot
-
-![Screenshot](./bunny.png)
+## Process
+1. Learned basic 3D modeling techniques using tutorials and resources provided.
+2. Brainstormed and sketched ideas for a unique 3D object.
+3. Created the 3D model using Blender3D (or your chosen tool).
+4. Ensured the model stayed within the 1,000 triangle limit.
+5. Exported the model in .obj format with triangulated faces.
+6. Committed the .obj file to the specified directory in the monorepo.
